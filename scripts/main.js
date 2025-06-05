@@ -74,3 +74,20 @@ $(".md-section-5").click(function() {
 // $("#modal-sucess-2").fancybox().trigger('click');
 
 new WOW().init();
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})

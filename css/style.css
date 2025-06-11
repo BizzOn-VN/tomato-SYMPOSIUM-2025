@@ -160,10 +160,11 @@ img{
   display: flex;
   justify-content: center;
   align-content: center;
-  gap: 30px;
+  gap: 20px;
 }
 .nav-links a{
   color: #0041d1;
+  font-size: calc(2px + 1vw);
 }
 .nav-links li.active a{
   background: #0041d1;
@@ -425,7 +426,13 @@ img{
     transition: background-color 0.3s ease;
     font-weight: 600;
 }
-
+.section-5 .btn-hoantat{
+  width: 25%;
+  text-align: center;
+}
+.section-5 .btn-hoantat a{
+  color: #FFF;
+}
 .section-5 .btn-apply:hover {
     background-color: #e65c50;
 }
@@ -549,6 +556,10 @@ img{
   width: 25%;
   float: left;
 }
+.section-8 .md-col-2{
+  float: left;
+  width: 14%;
+}
 .section-9{
   background: #0041d1;
   color: #FFF;
@@ -569,14 +580,17 @@ img{
 .section-9 ul li{
   flex-shrink: 0;
 }
-.section-9 ul li img{
+/*.section-9 ul li img{
   margin-right: 10px;
-}
-.section-9 ul li:nth-child(1) img{
-  width: 15%;
+}*/
+/*.section-9 ul li:nth-child(1) img{
+  width: 19%;
 }
 .section-9 ul li:nth-child(2) img{
-  width: 15%;
+  width: 27%;
+}*/
+.section-9 ul li span{
+  visibility: hidden;
 }
 .section-10{
   position: relative;
@@ -647,6 +661,9 @@ p.error{
       position: relative;
       color: #FFF;
 }
+.md-modal-fancybox a{
+  text-decoration: underline;
+}
 .md-modal-fancybox p{
   position: absolute;
     left: 50%;
@@ -656,7 +673,10 @@ p.error{
     width: 75%;
     text-align: center;
 }
-
+  .section-9 ul li img{
+    width: 50px;
+    margin-right: 10px;
+  }
 @media screen and (max-width: 1366px){
   .section-4 form .md-col{
     margin-bottom: 20px;
@@ -665,7 +685,8 @@ p.error{
     font-size: calc(4px + 1.2vw);
   }
   .section-9 ul li img{
-    width: 60%;
+    width: 30px;
+    margin-right: 10px;
   }
 }
 .md-popup{
@@ -678,6 +699,12 @@ p.error{
   overflow: hidden;
 }
 @media screen and (max-width: 767px){
+  .section-5 .btn-hoantat{
+    width: 50%;
+  }
+  .nav-links li a{
+    font-size: calc(10px + 1vw);
+  }
   .md-modal-fancybox{
     width: 100%;
   }
@@ -739,9 +766,6 @@ p.error{
     width: 50%;
     float: left;
     display: inline-block;
-  }
-  .section-9 ul li img{
-    width: 35%;
   }
   .nav-links{
     display: block;
@@ -840,4 +864,9 @@ p.error{
   .section-5 .info-grid{
     grid-template-columns:repeat(2, 1fr);
   }
+}
+
+.fancybox-slide--html .fancybox-close-small{
+  width: 60px;
+  height: 60px;
 }

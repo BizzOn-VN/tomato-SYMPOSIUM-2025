@@ -51,12 +51,12 @@ $(".md-section-1").click(function() {
 });
 $(".md-section-2").click(function() {
     $('html,body').animate({
-        scrollTop: $(".section-2").offset().top - 90},
+        scrollTop: $(".section-3").offset().top - 90},
         'slow');
 });
 $(".md-section-3").click(function() {
     $('html,body').animate({
-        scrollTop: $(".section-3").offset().top - 90},
+        scrollTop: $(".section-2").offset().top - 90},
         'slow');
 });
 $(".md-section-4").click(function() {

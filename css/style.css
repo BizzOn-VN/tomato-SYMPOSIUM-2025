@@ -185,9 +185,9 @@ img{
   float: left;
   padding: 0px 5%;
 }
-/*.section-1 p{
+.section-1 p{
   text-align: justify;
-}*/
+}
 .section-2{
   padding: 3% 0px;
   background: linear-gradient(to right, #e7d4e7, #fcd9cd);
@@ -580,6 +580,9 @@ img{
 .section-9 ul li{
   flex-shrink: 0;
 }
+.section-9 ul li:nth-child(3) a{
+  margin-right: 20px;
+}
 /*.section-9 ul li img{
   margin-right: 10px;
 }*/
@@ -867,6 +870,6 @@ p.error{
 }
 
 .fancybox-slide--html .fancybox-close-small{
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }

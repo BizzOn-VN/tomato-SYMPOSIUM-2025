@@ -69,7 +69,7 @@ ul li {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
   font-family: 'Cobe-ExtraBold';
-  font-size: calc(10px + 2vw);
+  font-size: calc(8px + 2vw);
   font-weight: 900;
 }
 
@@ -728,7 +728,7 @@ p.error{
     top: 66.36%;
   }
   h1, h2, h3, h4, h5, h6{
-    font-size: calc(15px + 2vw);
+    font-size: calc(13px + 2vw);
   }
   .section-6{
     display: block;

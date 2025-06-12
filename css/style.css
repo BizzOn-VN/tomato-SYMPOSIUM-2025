@@ -556,9 +556,11 @@ img{
   width: 25%;
   float: left;
 }
-.section-8 .md-col-2{
-  float: left;
-  width: 14%;
+.section-8 .md-content-logo{
+ /* float: left;
+  width: 14%;*/
+  display: flex;
+  gap: 20px;
 }
 .section-9{
   background: #0041d1;
@@ -702,6 +704,9 @@ p.error{
   overflow: hidden;
 }
 @media screen and (max-width: 767px){
+  .section-8 .md-content-logo{
+    gap: 10px;
+  }
   .section-5 .btn-hoantat{
     width: 50%;
   }

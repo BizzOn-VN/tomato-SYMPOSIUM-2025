@@ -254,10 +254,44 @@ img{
   float: left;
   margin-right: 5%;
 }
-.section-4 .md-left img{
-  margin-bottom: 30px;
+.section-4 .md-left .md-col{
+  border-radius: 20px;
+  padding: 3% 5%;
+  border: 5px solid #1e42c8;
+  background: #FFF;
 }
-
+.section-4 .md-left .md-col .md-top{
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px dashed #1e42c8;
+}
+.section-4 .md-left .md-col .md-top h6{
+  margin-bottom: 0px;
+  color: #1e42c8;
+  line-height: 1.2;
+}
+.section-4 .md-left .md-col .md-bot h6{
+  text-align: center;
+  color: #1e42c8;
+  padding: 10px 0px;
+  margin-bottom: 0px;
+}
+.section-4 .md-left .md-col .md-bot p{
+  margin-bottom: 2px;
+}
+.section-4 .md-left .md-col-2{
+  border: 5px solid #c10808;
+  margin-top: 30px;
+}
+.section-4 .md-left .md-col-2 .md-top{
+  border-bottom: 2px dashed #c10808;
+}
+.section-4 .md-left .md-col-2 .md-top h6{
+  color: #c10808;
+}
+.section-4 .md-left .md-col-2 .md-bot h6{
+  color: #c10808;
+}
 .section-4 .md-right{
   width: 50%;
   float: left;
@@ -838,6 +872,7 @@ p.error{
     float: none;
     width: 100%;
     margin-right: 0px;
+    margin-bottom: 30px;
   }
   .section-4 .md-right{
     float: none;

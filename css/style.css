@@ -44,14 +44,14 @@ body {
      url(../fonts/Cobe-Regular/Cobe-Regular.woff) format("woff"); }
 
 a {
-  color: #0bb4b7;
+  color: #0041d1;
   -webkit-transition-duration: 0.2s;
        -o-transition-duration: 0.2s;
           transition-duration: 0.2s;
 }
 a:hover {
   text-decoration: none;
-  color: #0bb4b7;
+  color: #0041d1;
 }
 a:focus {
   outline: none;

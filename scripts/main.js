@@ -76,7 +76,7 @@ $(".md-section-5").click(function() {
 new WOW().init();
 
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:20,
     nav:true,
     responsive:{

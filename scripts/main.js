@@ -28,6 +28,8 @@ $('.toggle-menu').click(function(){
 
 $('.nav-links li').click(function(){
     $('.nav-links').removeClass('active');
+    $('.nav-links li').removeClass('active');
+    $(this).addClass('active');
 });
 
 $(window).scroll(function(){

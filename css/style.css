@@ -495,14 +495,13 @@ img{
     font-weight: 600;
 }
 .section-5 .btn-hoantat{
-  width: 25%;
-  text-align: center;
+
+  background: transparent;
+  padding: 0px;
 }
+
 .section-5 .btn-hoantat a{
   color: #FFF;
-}
-.section-5 .btn-apply:hover {
-    background-color: #e65c50;
 }
 
 /* Footer Note (Left Panel) */
@@ -802,9 +801,9 @@ p.error{
   .section-8 .md-content-logo{
     gap: 10px;
   }
-  .section-5 .btn-hoantat{
+/*  .section-5 .btn-hoantat{
     width: 50%;
-  }
+  }*/
   .nav-links li a{
     font-size: calc(10px + 1vw);
   }
@@ -979,4 +978,26 @@ p.error{
 }
 .owl-next.disabled, .owl-prev.disabled {
   opacity: 0.3 !important;
+}
+.section-5 .btn-hoantat .fancybox-close-small{
+  width: 25% !important;
+  height: auto !important;
+  left: 0;
+  position: relative;
+  right: auto;
+}
+.section-5 .btn-hoantat .fancybox-close-small{
+  background-color: #e03330;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+@media screen and (max-width: 767px){
+  .section-5 .btn-hoantat .fancybox-close-small{
+    width: 50% !important;
+  }
 }

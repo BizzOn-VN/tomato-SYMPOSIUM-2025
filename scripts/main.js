@@ -49,6 +49,8 @@ $('.ui.dropdown')
   .dropdown()
 ;
 
+// $("#modal-sucess").fancybox().trigger('click');
+// $("#modal-sucess-2").fancybox().trigger('click');
 
 new WOW().init();
 

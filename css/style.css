@@ -709,7 +709,7 @@ img{
   color: #e03330;
 }
 p.error{
-      color: #fff;
+      color: #f9dc57;
     font-style: italic;
     font-size: calc(2px + 0.8vw) !important;
     margin-bottom: 0px;
@@ -742,7 +742,7 @@ p.error{
   display: none;
       width: 50%;
       height: 50%;
-      background: #e03330;
+      background: #387e22;
       position: relative;
       color: #FFF;
 }
@@ -784,6 +784,9 @@ p.error{
   overflow: hidden;
 }
 @media screen and (max-width: 767px){
+  p.error{
+    font-size: calc(4px + 1vw) !important;
+  }
   .section-3 .md-content .owl-next{
     top: 25%;
     width: 20px;

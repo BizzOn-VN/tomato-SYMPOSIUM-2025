@@ -166,7 +166,7 @@ img{
   color: #0041d1;
   font-size: calc(2px + 1vw);
 }
-.nav-links li.active a{
+.nav-links li a.active{
   background: #0041d1;
   color: #FFF;
   padding: 10px 20px;
@@ -667,6 +667,18 @@ img{
 }
 .section-10{
   position: relative;
+}
+.section-10 .ui.selection.active.dropdown .menu{
+  top: auto !important;
+  border-radius: .28571429rem .28571429rem 0 0 !important;
+  bottom: 101% !important;
+  border: 1px solid #96c8da !important;
+  border-bottom: 0px !important;
+}
+.section-10 .ui.active.selection.dropdown{
+  border-radius: 20px !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
 }
 .section-10 .md-item{
   position: absolute;

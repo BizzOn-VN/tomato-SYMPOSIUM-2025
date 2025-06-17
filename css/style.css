@@ -947,6 +947,9 @@ p.error{
     width: 15px;
     height: 15px;
   }
+  .section-4 form .radio-group{
+    padding-left: 10px;
+  }
   .section-5{
     display: block;
   }

@@ -783,6 +783,9 @@ p.error{
   overflow: hidden;
 }
 @media screen and (max-width: 767px){
+  .section-9 ul li img{
+    width: 20px;
+  }
   p.error{
     font-size: calc(4px + 1vw) !important;
   }

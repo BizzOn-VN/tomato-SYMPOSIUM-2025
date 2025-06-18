@@ -782,9 +782,15 @@ p.error{
   width: 100%;
   overflow: hidden;
 }
+.section-9 ul li:nth-child(3) a{
+  display: inline-block;
+}
 @media screen and (max-width: 767px){
   .section-9 ul li img{
     width: 20px;
+  }
+  .section-9 ul li:nth-child(3) a.md-desktop{
+    display: none;
   }
   p.error{
     font-size: calc(4px + 1vw) !important;
